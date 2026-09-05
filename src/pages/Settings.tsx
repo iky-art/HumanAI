@@ -65,7 +65,7 @@ export default function Settings() {
     async function onSubmit(e: FormEvent) {
       e.preventDefault();
       setError('');
-      const email = `${profile!.username.toLowerCase()}@users.humanai.app`;
+      const email = `${profile!.username.toLowerCase()}@users.humanai.com`;
       const check = await supabase.auth.signInWithPassword({ email, password: current });
       if (check.error) {
         setError('Password saat ini salah.');

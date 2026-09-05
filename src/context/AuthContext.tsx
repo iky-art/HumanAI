@@ -12,7 +12,7 @@ import type { Profile } from '../types/database';
 // only "verification" that ever happens is a human operator actually
 // messaging that number when it matters — manual, not automated.
 function syntheticEmail(username: string) {
-  return `${username.toLowerCase()}@users.humanai.app`;
+  return `${username.toLowerCase()}@users.humanai.com`;
 }
 
 function referralCode(username: string) {
