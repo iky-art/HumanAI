@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "chat": "Chat",
+    "history": "History Chat",
+    "profile": "Profile",
+    "pricing": "Pricing",
+    "about": "Tentang",
+    "rules": "Rules",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "landing": {
+    "tagline": "Bukan AI. Cuma manusia yang ngobrol.",
+    "lead": "Tampilannya seperti chatbot AI modern. Tapi setiap balasan yang kamu terima benar-benar diketik oleh manusia — bukan model, bukan API key tersembunyi.",
+    "cta_primary": "Masuk / Daftar",
+    "cta_secondary": "Pelajari dulu",
+    "fact_visual": "Visual",
+    "fact_visual_value": "Mirip AI",
+    "fact_engine": "Yang menjawab",
+    "fact_engine_value": "Manusia",
+    "fact_api": "API tersembunyi",
+    "fact_api_value": "Tidak ada",
+    "step1_title": "Daftar dengan WhatsApp aktif",
+    "step1_desc": "Biar operator bisa memastikan kamu manusia sungguhan juga.",
+    "step2_title": "Tulis apa saja di Chat",
+    "step2_desc": "Nggak ada AI yang mikirin jawabannya — beneran nunggu manusia baca.",
+    "step3_title": "Dapat balasan dari operator",
+    "step3_desc": "Bisa lambat kalau operator lagi istirahat — namanya juga manusia.",
+    "footer": "HumanAI v1.0.0 — dikembangkan oleh Orbit Studio."
+  },
+  "auth": {
+    "login_tab": "Masuk",
+    "register_tab": "Daftar",
+    "username": "Username",
+    "password": "Password",
+    "confirm_password": "Konfirmasi Password",
+    "whatsapp": "Nomor WhatsApp aktif",
+    "whatsapp_hint": "Dipakai untuk verifikasi & dihubungi operator bila perlu — tidak ditampilkan ke user lain.",
+    "placeholder_username": "Masukkan username kamu",
+    "placeholder_username_register": "Minimal 3 karakter",
+    "placeholder_password": "Masukkan password kamu",
+    "placeholder_password_register": "Minimal 6 karakter",
+    "placeholder_confirm": "Ulangi password kamu",
+    "show_password": "Tampilkan password",
+    "hide_password": "Sembunyikan password",
+    "agree_prefix": "Saya sudah membaca dan setuju dengan",
+    "terms_link": "Syarat & Ketentuan",
+    "and": "dan",
+    "privacy_link": "Kebijakan Privasi",
+    "error_must_agree": "Kamu harus menyetujui Syarat & Ketentuan dan Kebijakan Privasi dulu.",
+    "submit_login": "Masuk",
+    "submit_register": "Buat akun",
+    "error_password_mismatch": "Konfirmasi password tidak sama.",
+    "error_generic": "Terjadi kesalahan. Coba lagi."
+  },
+  "legal": {
+    "back": "Kembali",
+    "terms_title": "Syarat & Ketentuan",
+    "privacy_title": "Kebijakan Privasi",
+    "last_updated": "Terakhir diperbarui"
+  }
+}

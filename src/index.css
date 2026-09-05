@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply bg-ink font-body text-ash-100;
+}
+
+::selection {
+  background: theme('colors.signal.blue');
+  color: theme('colors.ink.DEFAULT');
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-sm border border-ink-border bg-ink-raised px-3.5 py-2.5 text-sm text-ash-100 outline-none transition-colors focus:border-signal-blue;
+  }
+  .btn-primary {
+    @apply rounded-sm bg-signal-blue px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:bg-signal-blue/90 disabled:opacity-60;
+  }
+  .btn-ghost {
+    @apply rounded-sm border border-ink-border px-4 py-2.5 text-sm font-medium text-ash-100 transition-colors hover:border-ash-500 disabled:opacity-60;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid theme('colors.signal.blue');
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  transition-duration: 0.01ms !important;
+}

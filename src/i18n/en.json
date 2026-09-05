@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "chat": "Chat",
+    "history": "Chat History",
+    "profile": "Profile",
+    "pricing": "Pricing",
+    "about": "About",
+    "rules": "Rules",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "landing": {
+    "tagline": "Not an AI. Just humans talking.",
+    "lead": "It looks like a modern AI chatbot. But every reply you get is genuinely typed by a human — no model, no hidden API key.",
+    "cta_primary": "Log in / Sign up",
+    "cta_secondary": "Learn more first",
+    "fact_visual": "Visual",
+    "fact_visual_value": "AI-like",
+    "fact_engine": "Who answers",
+    "fact_engine_value": "Human",
+    "fact_api": "Hidden API",
+    "fact_api_value": "None",
+    "step1_title": "Sign up with an active WhatsApp number",
+    "step1_desc": "So an operator can confirm you're a real human too.",
+    "step2_title": "Write anything in Chat",
+    "step2_desc": "No AI is thinking up the answer — a human genuinely has to read it first.",
+    "step3_title": "Get a reply from an operator",
+    "step3_desc": "It can be slow if the operator is resting — they're human, after all.",
+    "footer": "HumanAI v1.0.0 — built by Orbit Studio."
+  },
+  "auth": {
+    "login_tab": "Log in",
+    "register_tab": "Sign up",
+    "username": "Username",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "whatsapp": "Active WhatsApp number",
+    "whatsapp_hint": "Used for verification & so an operator can reach you if needed — never shown to other users.",
+    "placeholder_username": "Enter your username",
+    "placeholder_username_register": "At least 3 characters",
+    "placeholder_password": "Enter your password",
+    "placeholder_password_register": "At least 6 characters",
+    "placeholder_confirm": "Re-enter your password",
+    "show_password": "Show password",
+    "hide_password": "Hide password",
+    "agree_prefix": "I've read and agree to the",
+    "terms_link": "Terms of Service",
+    "and": "and",
+    "privacy_link": "Privacy Policy",
+    "error_must_agree": "You need to agree to the Terms of Service and Privacy Policy first.",
+    "submit_login": "Log in",
+    "submit_register": "Create account",
+    "error_password_mismatch": "Passwords don't match.",
+    "error_generic": "Something went wrong. Please try again."
+  },
+  "legal": {
+    "back": "Back",
+    "terms_title": "Terms of Service",
+    "privacy_title": "Privacy Policy",
+    "last_updated": "Last updated"
+  }
+}
